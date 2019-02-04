@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/open_sans_regular"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorBlack" />
+
+    <Spinner
+        android:id="@+id/spUOM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/open_sans_regular" />
+
+    <EditText
+        android:id="@+id/edQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight="1.3"
+        android:background="@android:drawable/editbox_background_normal"
+        android:fontFamily="@font/open_sans_regular"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+</LinearLayout>

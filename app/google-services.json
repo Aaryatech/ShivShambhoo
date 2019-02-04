@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "716822792622",
+    "firebase_url": "https://shivshambhoo-b6827.firebaseio.com",
+    "project_id": "shivshambhoo-b6827",
+    "storage_bucket": "shivshambhoo-b6827.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716822792622:android:0adf62fb780c7211",
+        "android_client_info": {
+          "package_name": "com.ats.shivshambhoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716822792622-2tfj2scmk73afpdm7aep25005hbbvsbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ats.shivshambhoo",
+            "certificate_hash": "37ec8d8f30b65dc2723d50b8b7da23408690dbb7"
+          }
+        },
+        {
+          "client_id": "716822792622-7qst4005p5j0eoauqmn8998uffhq5m0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuO3t2sGedQu0jD8iQJr_uiMUl6AyjLQs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716822792622-7qst4005p5j0eoauqmn8998uffhq5m0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

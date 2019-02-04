@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dashboard"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_plant_selection"
+            android:icon="@drawable/ic_plant_selection"
+            android:title="Plant Selection" />
+
+
+        <item
+            android:id="@+id/nav_add_customer"
+            android:icon="@drawable/ic_add_cust"
+            android:title="Add Customer" />
+
+        <item
+            android:id="@+id/nav_customer_list"
+            android:icon="@drawable/ic_cust_list"
+            android:title="Customer List" />
+
+        <item
+            android:id="@+id/nav_add_enquiry"
+            android:icon="@drawable/ic_enquiry"
+            android:title="Add Enquiry" />
+
+        <item
+            android:id="@+id/nav_enquiry_list"
+            android:icon="@drawable/ic_enquiry_list"
+            android:title="Enquiry List" />
+
+        <item
+            android:id="@+id/nav_add_quotation"
+            android:icon="@drawable/ic_quote_list"
+            android:title="Add Quotation"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_quotation_list"
+            android:icon="@drawable/ic_quote_list"
+            android:title="Generate Quotation" />
+
+        <item
+            android:id="@+id/nav_all_quotation_list"
+            android:icon="@drawable/ic_quote_list"
+            android:title="All Quotation List" />
+
+        <item
+            android:id="@+id/nav_order_add"
+            android:icon="@drawable/ic_add_order"
+            android:title="Add Order" />
+
+        <item
+            android:id="@+id/nav_order_list"
+            android:icon="@drawable/ic_order_list"
+            android:title="Order List" />
+
+        <item
+            android:id="@+id/nav_order_track"
+            android:icon="@drawable/ic_logout"
+            android:title="Order Tracking"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_user_black"
+            android:title="User" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
